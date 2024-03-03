@@ -9,7 +9,7 @@ import cv2
 import numpy as np
 
 face_classifier = cv2.CascadeClassifier(r'code/FER/haarcascade_frontalface_default.xml')
-classifier =load_model(r'code/FER/FER_Model_Grp16.h5')
+classifier =load_model(r'code/FER/model.h5')
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'sad', 'Surprise']
 
