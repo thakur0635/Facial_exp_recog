@@ -1,4 +1,3 @@
-# Run The program and in order to quit webcam press 'q'
 
 from tensorflow import keras
 from keras.models import load_model
